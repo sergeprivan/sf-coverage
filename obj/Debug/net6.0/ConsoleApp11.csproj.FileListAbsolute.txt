@@ -1,0 +1,17 @@
+C:\Users\seprivan\Source\Repos\ConsoleApp11\ConsoleApp11\obj\Debug\net6.0\ConsoleApp11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\seprivan\Source\Repos\ConsoleApp11\ConsoleApp11\obj\Debug\net6.0\ConsoleApp11.AssemblyInfoInputs.cache
+C:\Users\seprivan\Source\Repos\ConsoleApp11\ConsoleApp11\obj\Debug\net6.0\ConsoleApp11.AssemblyInfo.cs
+C:\Users\seprivan\Source\Repos\ConsoleApp11\ConsoleApp11\obj\Debug\net6.0\ConsoleApp11.csproj.CoreCompileInputs.cache
+C:\Users\seprivan\Source\Repos\ConsoleApp11\ConsoleApp11\bin\Debug\net6.0\ConsoleApp11.exe
+C:\Users\seprivan\Source\Repos\ConsoleApp11\ConsoleApp11\bin\Debug\net6.0\ConsoleApp11.deps.json
+C:\Users\seprivan\Source\Repos\ConsoleApp11\ConsoleApp11\bin\Debug\net6.0\ConsoleApp11.runtimeconfig.json
+C:\Users\seprivan\Source\Repos\ConsoleApp11\ConsoleApp11\bin\Debug\net6.0\ConsoleApp11.dll
+C:\Users\seprivan\Source\Repos\ConsoleApp11\ConsoleApp11\bin\Debug\net6.0\ref\ConsoleApp11.dll
+C:\Users\seprivan\Source\Repos\ConsoleApp11\ConsoleApp11\bin\Debug\net6.0\ConsoleApp11.pdb
+C:\Users\seprivan\Source\Repos\ConsoleApp11\ConsoleApp11\obj\Debug\net6.0\ConsoleApp11.dll
+C:\Users\seprivan\Source\Repos\ConsoleApp11\ConsoleApp11\obj\Debug\net6.0\ref\ConsoleApp11.dll
+C:\Users\seprivan\Source\Repos\ConsoleApp11\ConsoleApp11\obj\Debug\net6.0\ConsoleApp11.pdb
+C:\Users\seprivan\Source\Repos\ConsoleApp11\ConsoleApp11\obj\Debug\net6.0\ConsoleApp11.genruntimeconfig.cache
+C:\Users\seprivan\Source\Repos\ConsoleApp11\ConsoleApp11\bin\Debug\net6.0\Nager.Date.dll
+C:\Users\seprivan\Source\Repos\ConsoleApp11\ConsoleApp11\obj\Debug\net6.0\ConsoleApp11.csproj.CopyComplete
+C:\Users\seprivan\Source\Repos\ConsoleApp11\ConsoleApp11\obj\Debug\net6.0\ConsoleApp11.csproj.AssemblyReference.cache

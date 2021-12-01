@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ConsoleApp11/1.0.0": {
+        "dependencies": {
+          "Nager.Date": "1.30.0"
+        },
+        "runtime": {
+          "ConsoleApp11.dll": {}
+        }
+      },
+      "Nager.Date/1.30.0": {
+        "runtime": {
+          "lib/net5.0/Nager.Date.dll": {
+            "assemblyVersion": "1.30.0.0",
+            "fileVersion": "1.30.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ConsoleApp11/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Nager.Date/1.30.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gyVpATra8T8cqc1OmVzi7uoq6M45jPqDtF8FKDyxdMJ+AzzdxR4iBlbupjrrCMujhw6yo3WxKcSF+7ohxtoDKQ==",
+      "path": "nager.date/1.30.0",
+      "hashPath": "nager.date.1.30.0.nupkg.sha512"
+    }
+  }
+}

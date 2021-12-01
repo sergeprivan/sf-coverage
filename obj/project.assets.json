@@ -1,0 +1,116 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Nager.Date/1.30.0": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Nager.Date.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/Nager.Date.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Nager.Date/1.30.0": {
+      "sha512": "gyVpATra8T8cqc1OmVzi7uoq6M45jPqDtF8FKDyxdMJ+AzzdxR4iBlbupjrrCMujhw6yo3WxKcSF+7ohxtoDKQ==",
+      "type": "package",
+      "path": "nager.date/1.30.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "calendar.png",
+        "lib/net472/Nager.Date.dll",
+        "lib/net472/Nager.Date.xml",
+        "lib/net5.0/Nager.Date.dll",
+        "lib/net5.0/Nager.Date.xml",
+        "lib/netstandard2.0/Nager.Date.dll",
+        "lib/netstandard2.0/Nager.Date.xml",
+        "nager.date.1.30.0.nupkg.sha512",
+        "nager.date.nuspec",
+        "readme.txt"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Nager.Date >= 1.30.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\seprivan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\seprivan\\Source\\Repos\\sf-coverage\\Microsoft.Coverage.csproj",
+      "projectName": "Microsoft.Coverage",
+      "projectPath": "C:\\Users\\seprivan\\Source\\Repos\\sf-coverage\\Microsoft.Coverage.csproj",
+      "packagesPath": "C:\\Users\\seprivan\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\seprivan\\Source\\Repos\\sf-coverage\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\seprivan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\ServiceFabricSDK.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\Microsoft SDKs\\Service Fabric\\packages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Nager.Date": {
+            "target": "Package",
+            "version": "[1.30.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
