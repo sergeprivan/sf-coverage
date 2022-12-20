@@ -11,7 +11,7 @@ namespace Microsoft.Coverage // Note: actual namespace depends on the project na
         public static void Main(string[] args)
         {
             var countryCodes = new List<string>() { "FR", "RO", "EG", "PT", "DE", "ES", "GB" };
-            var countryEngsDictonary = new Dictionary<string, int>() { { "FR", 2 }, { "RO", 26 }, { "EG", 6 }, { "PT", 39 }, { "DE", 2 }, { "ES", 2 }, { "GB", 1 } };
+            var countryEngsDictonary = new Dictionary<string, int>() { { "FR", 12 }, { "RO", 6 }, { "EG", 16 }, { "PT", 9 }, { "DE", 32 }, { "ES", 12 }, { "GB", 21 } };
             var publicHolidayEngsDictonary = new Dictionary<DateTime, int>();
             var datePublicHolidayDictonary = new Dictionary<DateTime, List<PublicHoliday>>();
             var maxEngs = countryEngsDictonary.Sum(x => x.Value);
