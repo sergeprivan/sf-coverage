@@ -12,7 +12,7 @@ namespace Microsoft.Coverage
         public static void Main(string[] args)
         {
             var countryCodes = new List<string>() { "FR", "RO", "EG", "PT", "DE", "ES", "GB" };
-            var countryEngsDictonary = new Dictionary<string, int>() { { "FR", 22 }, { "RO", 6 }, { "EG", 36 }, { "PT", 35 }, { "DE", 1 }, { "ES", 12 }, { "GB", 10 } };
+            var countryEngsDictonary = new Dictionary<string, int>() { { "FR", 23 }, { "RO", 21 }, { "EG", 16 }, { "PT", 33 }, { "DE", 32 }, { "ES", 32 }, { "GB", 13 } };
             var publicHolidayEngsDictonary = new Dictionary<DateTime, int>();
             var datePublicHolidayDictonary = new Dictionary<DateTime, List<PublicHoliday>>();
             var maxEngs = countryEngsDictonary.Sum(x => x.Value);
@@ -57,7 +57,7 @@ namespace Microsoft.Coverage
 
                 if (value < 50)
                 {
-                    if (key.Date.DayOfWeek == DayOfWeek.Sunday && datePublicHolidayDictonary[key].FirstOrDefault(x => x.CountryCode.ToString() == "EG") == null)
+                    if (key.Date.DayOfWeek == DayOfWeek.Sunday && datePublicHolidayDictonary[key].FirstOrDefault(x => x.CountryCode.ToString() == "EG") == null) // we dont worry about Sunday if EG is in
                     {
                         Console.WriteLine();
                         continue;
