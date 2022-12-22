@@ -12,7 +12,7 @@ namespace Microsoft.Coverage
         public static void Main(string[] args)
         {
             var countryCodes = new List<string>() { "FR", "RO", "EG", "PT", "DE", "ES", "GB" };
-            var countryEngsDictonary = new Dictionary<string, int>() { { "FR", 23 }, { "RO", 21 }, { "EG", 16 }, { "PT", 33 }, { "DE", 32 }, { "ES", 32 }, { "GB", 13 } };
+            var countryEngsDictonary = new Dictionary<string, int>() { { "FR", 22 }, { "RO", 16 }, { "EG", 33 }, { "PT", 34 }, { "DE", 22 }, { "ES", 12 }, { "GB", 13 } };
             var publicHolidayEngsDictonary = new Dictionary<DateTime, int>();
             var datePublicHolidayDictonary = new Dictionary<DateTime, List<PublicHoliday>>();
             var maxEngs = countryEngsDictonary.Sum(x => x.Value);
@@ -20,6 +20,7 @@ namespace Microsoft.Coverage
             foreach (var countryCode in countryCodes)
             {
                 var publicHolidays = DateSystem.GetPublicHolidays(2023, countryCode);
+
 
                 foreach (var publicHoliday in publicHolidays)
                 {
@@ -68,7 +69,10 @@ namespace Microsoft.Coverage
 
                         foreach (var test in datePublicHolidayDictonary[key])
                         {
-                            Console.WriteLine("{0}, Public Holiday {1}", test.CountryCode, test.Name);
+                            if (test.Global)
+                                Console.WriteLine("{0}, Public Holiday {1}", test.CountryCode, test.Name);
+                            else
+                                Console.WriteLine("{0}, Local Holiday {1}", test.CountryCode, test.Name);
                         }
                     }
 
